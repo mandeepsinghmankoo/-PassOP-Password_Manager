@@ -1,0 +1,32 @@
+/* Make the background transparent */
+.Toastify__toast--success {
+    background-color: transparent !important; 
+    color: black;
+    box-shadow: none !important; 
+    border: 2px solid #c084fc; 
+}
+
+.Toastify__progress-bar--success {
+    background-color: #c084fc !important; 
+}
+
+.Toastify__toast-icon svg {
+    fill: #c084fc !important; 
+}
+.Toastify__toast-container {
+    top: 10%; 
+}
+
+.Toastify__toast {
+    margin-top: 10px; 
+}
+
+
+@media only screen and (max-width: 480px) {
+    .custom-class{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
